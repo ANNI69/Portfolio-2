@@ -31,13 +31,7 @@ export default function Projects() {
       description:
         "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
       link: "https://github.com/ANNI69/Doot.git",
-    },
-    {
-      title: "....",
-      description:
-        "....",
-      link: "https://microsoft.com",
-    },
+    }
   ];
   return (
     <>
