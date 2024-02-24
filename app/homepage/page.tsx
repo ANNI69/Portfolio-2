@@ -13,7 +13,6 @@ import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { TextGenerateEffectDemo } from "../homepage/TextGenDemo";
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
 import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
-import { AnimatedTooltipPreview } from "../footer/page";
 export default function HomePage() {
   const words = [
     {
