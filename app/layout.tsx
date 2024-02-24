@@ -1,14 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
-import { Inter as FontSans } from "next/font/google"
-
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Aniruddh Nagare",
-  description: "Developer and Creator",
+  description: "Developerand Creator"
 };
 
 export default function RootLayout({
