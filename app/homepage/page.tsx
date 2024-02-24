@@ -12,7 +12,8 @@ import { SparklesCore } from "@/components/ui/sparkles";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { TextGenerateEffectDemo } from "../homepage/TextGenDemo";
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
-
+import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
+import { AnimatedTooltipPreview } from "../footer/page";
 export default function HomePage() {
   const words = [
     {
@@ -28,7 +29,7 @@ export default function HomePage() {
 
   return (
     <>
-      <div className="min-h-screen w-full bg-black flex flex-col items-center justify-center overflow-hidden">
+      <div className="min-h-screen h-full w-full bg-black flex flex-col items-center justify-center overflow-hidden">
         <div className="w-full absolute inset-0">
           <SparklesCore
             id="tsparticlesfullpage"
