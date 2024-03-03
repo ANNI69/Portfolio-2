@@ -19,10 +19,10 @@ import { NavbarDemo } from "../navbar/navbar";
 export default function HomePage() {
   const words = [
     {
-      text: "Code",
+      text: "Code ",
     },
     {
-      text: "With",
+      text: "With ",
     },
     {
       text: "Anii.....",
@@ -77,6 +77,7 @@ export default function HomePage() {
           </Button>
           </a>
           <a href="/app-dev">
+          <div className=""></div>
           <Button className=" m-4" variant="outline" size="icon">
             <svg
               width="50"
