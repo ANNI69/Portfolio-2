@@ -23,8 +23,8 @@ export default function Projects() {
     {
       title: "Fabric",
       description:
-        "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
-      link: "https://github.com/ANNI69/Fabric.git",
+        "A Clothing brand that offers a wide range of products Like Hoddies and much more.",
+      link: "fabric-one.vercel.app",
     },
     {
       title: "Doot - News App",

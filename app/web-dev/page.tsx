@@ -1,10 +1,9 @@
+import { BackgroundBeamsDemo } from "./Demo";
+
 export default function WebDev() {
   return (
-    <div className="h-[50rem] w-full dark:bg-black bg-white  dark:bg-dot-dark/[0.2] bg-dot-black/[0.2] relative flex items-center justify-center overflow-hidden">
-      <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-dark [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
-      <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8">
-        Web Development
-      </p>
+    <div className="h-[40rem] w-full rounded-md bg-neutral-950 relative flex flex-col items-center justify-center">
+      <BackgroundBeamsDemo />
     </div>
   );
 }

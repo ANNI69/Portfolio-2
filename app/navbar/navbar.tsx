@@ -15,17 +15,17 @@ function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
   return (
     <div
-      className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
+      className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50 font-[Hexa]", className)}
     >
       <Menu setActive={setActive}>
-        <MenuItem setActive={setActive} active={active} item="Services">
+        <MenuItem setActive={setActive} active={active} item="Skills">
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/web-dev">Web Development</HoveredLink>
             <HoveredLink href="/app-dev">App Development</HoveredLink>
             
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Products">
+        <MenuItem setActive={setActive} active={active} item="Projects">
           <div className="  text-sm grid grid-cols-2 gap-10 p-4">
             <ProductItem
               title="E-Commerce App" 
@@ -34,31 +34,29 @@ function Navbar({ className }: { className?: string }) {
               description="Prepare for tech interviews like never before."
             />
             <ProductItem
-              title="Weather App"
+              title="Visualizer-One"
               href="https://github.com/ANNI69/WeatherApp.git"
-              src="https://i.ibb.co/X7T0syj/Screenshot-2024-02-25-170614.png"
+              src="https://i.ibb.co/CVB2fdG/Vector.png"
               description="Production ready Tailwind css components for your next project"
             />
             <ProductItem
-              title="Sync Beat"
+              title="Sync-Beat"
               href="https://gomoonbeam.com"
-              src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.51.31%E2%80%AFPM.png"
+              src="https://i.ibb.co/gF2wnjZ/Icon.png"
               description="Never write from scratch again. Go from idea to blog in minutes."
             />
             <ProductItem
-              title="Rogue"
-              href="https://userogue.com"
-              src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.47.07%E2%80%AFPM.png"
+              title="Fabric-One"
+              href="https://fabric-one.vercel.app/"
+              src="https://i.ibb.co/Z8wSTcm/fabric.png"
               description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
             />
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Pricing">
+        <MenuItem setActive={setActive} active={active} item="Academics">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/hobby">Hobby</HoveredLink>
-            <HoveredLink href="/individual">Individual</HoveredLink>
-            <HoveredLink href="/team">Team</HoveredLink>
-            <HoveredLink href="/enterprise">Enterprise</HoveredLink>
+            <HoveredLink href="academics/diploma">Diploma</HoveredLink>
+            <HoveredLink href="academics/btech">B.Tech</HoveredLink>
           </div>
         </MenuItem>
       </Menu>
