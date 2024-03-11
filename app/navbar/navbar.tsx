@@ -31,25 +31,25 @@ function Navbar({ className }: { className?: string }) {
               title="E-Commerce App" 
               href="https://github.com/ANNI69/e-commerce.git"
               src="https://assets.aceternity.com/demos/algochurn.webp"
-              description="Prepare for tech interviews like never before."
+              description="Platform for Clothing shopping"
             />
             <ProductItem
               title="Visualizer-One"
               href="https://github.com/ANNI69/WeatherApp.git"
               src="https://i.ibb.co/CVB2fdG/Vector.png"
-              description="Production ready Tailwind css components for your next project"
+              description="Data Structure Visualizer"
             />
             <ProductItem
               title="Sync-Beat"
               href="https://gomoonbeam.com"
               src="https://i.ibb.co/gF2wnjZ/Icon.png"
-              description="Never write from scratch again. Go from idea to blog in minutes."
+              description="Music Player - Let The Beat Sync With Your Friends"
             />
             <ProductItem
               title="Fabric-One"
               href="https://fabric-one.vercel.app/"
               src="https://i.ibb.co/Z8wSTcm/fabric.png"
-              description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
+              description="Platform for Online Clothing shopping"
             />
           </div>
         </MenuItem>
